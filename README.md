@@ -28,7 +28,7 @@ $Prompt_{𝐹𝑆} = [Sample Prompt_{𝑍𝑆} − label]𝑀 + Prompt_{𝑍𝑆
 #### Prompt Designs
 
 <p align="middle">
-  <img src="" alt="Prompt Designs" title="Prompt Designs" width=800/>
+  <img src="https://github.com/neuhai/Mental-LLM/blob/main/prompt_designs.png" alt="Prompt Designs" title="Prompt Designs" width=800/>
 </p>
 
 ### Datasets
@@ -56,11 +56,11 @@ We leveraged this dataset for two user-level tasks: binary suicide risk predicti
 ### Results
 
 <p align="middle">
-  <img src="" alt="Results" title="Results" width=800/>
+  <img src="https://github.com/neuhai/Mental-LLM/blob/main/results.png" alt="Results" title="Results" width=800/>
 </p>
 
 <p align="middle">
-  <img src="" alt="Enhanced Results" title="Enhanced Results" width=800/>
+  <img src="https://github.com/neuhai/Mental-LLM/blob/main/enhanced_results.png" alt="Enhanced Results" title="Enhanced Results" width=800/>
 </p>
 
 
