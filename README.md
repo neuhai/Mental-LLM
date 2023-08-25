@@ -10,7 +10,7 @@ Our best-finetuned models, Mental-Alpaca and Mental-FLAN-T5, outperform the best
 
 ## Todo
 
-- [ ] Organize code for data processing, model fine-tuning, and inference
+- [ ] Organize code for prompt designing, model fine-tuning, and inference
 - [ ] Release model weights to Huggingface hub upon acceptance 
 
 ## Contributions
