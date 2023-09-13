@@ -7,11 +7,16 @@ In this work, we present the first comprehensive evaluation of multiple LLMs, in
 
 Our best-finetuned models, Mental-Alpaca and Mental-FLAN-T5, outperform the best prompt design of GPT-3.5 by 10.9% and the best of GPT-4 by 4.8% on balanced accuracy and perform on par with the state-of-the-art task-specific language model. 
 
+We have publically released our fine-tuned model weights on huggingface hub. The use of both model weights is limited to research purposes only:
+- Mental-Alpaca: https://huggingface.co/NEU-HAI/mental-alpaca
+- Mental-FLAN-T5: https://huggingface.co/NEU-HAI/mental-flan-t5-xxl
+
+You may find sample codes to load both models from the repositories above directly. Details about the prompts, training process, and evaluations can be found in our [paper](https://arxiv.org/abs/2307.14385).
 
 ## Todo
 
 - [ ] Organize code for prompt designing, model fine-tuning, and inference
-- [ ] Release model weights to Huggingface hub upon acceptance 
+- [x] Release model weights to Huggingface hub (upon acceptance)
 
 ## Contributions
 
