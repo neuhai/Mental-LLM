@@ -11,7 +11,7 @@ We have publically released our fine-tuned model weights on huggingface hub. The
 - Mental-Alpaca: https://huggingface.co/NEU-HAI/mental-alpaca
 - Mental-FLAN-T5: https://huggingface.co/NEU-HAI/mental-flan-t5-xxl
 
-You may find sample codes to load both models from the repositories above directly. Details about the prompts, training process, and evaluations can be found in our [paper](https://arxiv.org/abs/2307.14385).
+You may find sample codes to load both models from the repositories above directly. Details about the prompts, training process, and evaluations can be found in our [paper](https://arxiv.org/abs/2307.14385). The GPU Memory requirement to **load** Mental-Alpaca and Mental-FLAN-T5 is 27GB and 44GB, respectively, and will require additional GPU Memory for inference.
 
 ## Todo
 
