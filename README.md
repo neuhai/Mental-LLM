@@ -3,16 +3,16 @@
 ## Todo
 
 - [ ] Organize code for prompt designing, model fine-tuning, and inference
-- [ ] Provide hyperparameters for the experiments 
+- [x] Provide hyperparameters for the experiments 
 - [x] Release model weights to Huggingface hub (upon acceptance)
 
 
 ## Table of Content
 1. [Overview](#overview)
 2. [Inference Settings](#inference-settings)
-3. [Datasets](datasets)
-4. [Models](models)
-5. [Results](results)
+3. [Datasets](#datasets)
+4. [Models](#models)
+5. [Results](#results)
 6. [Fine-tuning Hyperparamters](#fine-tuning-hyperparamters)
 
 ## Overview
@@ -84,7 +84,27 @@ More results can be found in the paper.
 
 ### Fine-tuning Hyperparamters
 
-
+- MentalRoBERTa (Baseline)
+  * For each dataset, we convert the original text labels into ascending numbers starting from 0
+  * num_train_epochs=3,
+    per_device_train_batch_size = 4,
+    gradient_accumulation_steps = 16,
+    per_device_eval_batch_size= 8,
+    learning_rate = 5e-5,
+    warmup_steps=500,
+    weight_decay=0.01,
+    logging_steps = 8,
+    fp16 = False
+- Mental-Alpaca
+  * We mostly leverage the same fine-tuning hyperparameters provided [here](https://github.com/tatsu-lab/stanford_alpaca) with minor changes to accomdate our computing resources
+- Mental-FLAN-T5
+  * max_len=1024,
+  target_max_len=128,
+  per_device_train_batch_size=2,
+  per_device_eval_batch_size=1,
+  gradient_accumulation_steps=2,
+  learning_rate=1e-4,
+  num_train_epochs=2
 
 
 
