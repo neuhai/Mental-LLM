@@ -16,6 +16,7 @@ You may find sample codes to load both models from the repositories above direct
 ## Todo
 
 - [ ] Organize code for prompt designing, model fine-tuning, and inference
+- [ ] Provide hyperparameters for the experiments 
 - [x] Release model weights to Huggingface hub (upon acceptance)
 
 ## Contributions
