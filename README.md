@@ -1,5 +1,20 @@
 # Mental-LLM
 
+## Todo
+
+- [ ] Organize code for prompt designing, model fine-tuning, and inference
+- [ ] Provide hyperparameters for the experiments 
+- [x] Release model weights to Huggingface hub (upon acceptance)
+
+
+## Table of Content
+1. [Overview](#overview)
+2. [Inference Settings](#inference-settings)
+3. [Datasets](datasets)
+4. [Models](models)
+5. [Results](results)
+6. [Fine-tuning Hyperparamters](#fine-tuning-hyperparamters)
+
 ## Overview
 This is the repository for the paper [```Mental-LLM: Leveraging Large Language Models for Mental Health Prediction via Online Text Data```](https://arxiv.org/abs/2307.14385), an updated version of this paper is under review.
 
@@ -13,11 +28,6 @@ We have publically released our fine-tuned model weights on huggingface hub. The
 
 You may find sample codes to load both models from the repositories above directly. Details about the prompts, training process, and evaluations can be found in our [paper](https://arxiv.org/abs/2307.14385). The GPU Memory requirement to **load** Mental-Alpaca and Mental-FLAN-T5 is 27GB and 44GB, respectively, and will require additional GPU Memory for inference.
 
-## Todo
-
-- [ ] Organize code for prompt designing, model fine-tuning, and inference
-- [ ] Provide hyperparameters for the experiments 
-- [x] Release model weights to Huggingface hub (upon acceptance)
 
 ## Contributions
 
@@ -69,8 +79,14 @@ We leveraged this dataset for two user-level tasks: binary suicide risk predicti
   <img src="https://github.com/neuhai/Mental-LLM/blob/main/enhanced_results.png" alt="Enhanced Results" title="Enhanced Results" width=800/>
 </p>
 
-
 More results can be found in the paper.
+
+
+### Fine-tuning Hyperparamters
+
+
+
+
 
 ## Citation
 ```
